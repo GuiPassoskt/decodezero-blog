@@ -1,0 +1,175 @@
+  
+  /* BACKGROUNDS */
+  .background-backend {
+    background-color: #11d15e;
+  }
+  
+  .background-frontend {
+    background-color: #dd0031;
+  }
+  
+  .background-mobile {
+    background-color: #ff8c00;
+  }
+  
+  .background-fullstack {
+    background-color: #8625d2;
+  }
+  
+  .background-data {
+    background-color: #fcdb04;
+  }
+  
+  .background-cloud {
+    background-color: #008df1;
+  }
+  
+  .background-devops {
+    background-color: #0060f1;
+  }
+  
+  .background-dark {
+    background-color: #131219;
+  }
+  
+  .background-dark-light {
+    background-color: #1a191f;
+  }
+  
+  .background-dark-gray {
+    background-color: #16151c;
+  }
+  
+  .background-white {
+    background-color: #fff;
+  }
+  
+  .background-gray {
+    background-color: #5f5e61;
+  }
+  
+  .background-gray-light {
+    background-color: #848487;
+  }
+  
+  .background-gray-dark {
+    background-color: #39383e;
+  }
+  
+  .background-success {
+    background-color: #89dd13;
+  }
+  
+  .background-danger {
+    background-color: #ff413a;
+  }
+  
+  .background-warning {
+    background-color: #ffcd25;
+  }
+  
+  /* BACKGROUND HOVER ONLY */
+  
+  .background-backend--hover:hover {
+    background-color: #11d15e;
+  }
+  
+  .background-frontend--hover:hover {
+    background-color: #dd0031;
+  }
+  
+  .background-mobile--hover:hover {
+    background-color: #ff8c00;
+  }
+  
+  .background-fullstack--hover:hover {
+    background-color: #8625d2;
+  }
+  
+  .background-data--hover:hover {
+    background-color: #fcdb04;
+  }
+  
+  .background-cloud--hover:hover {
+    background-color: #008df1;
+  }
+  
+  .background-devops--hover:hover {
+    background-color: #0060f1;
+  }
+  
+  .background-dark--hover:hover {
+    background-color: #131219;
+  }
+  
+  .background-dark-light--hover:hover {
+    background-color: #1a191f;
+  }
+  
+  .background-dark-gray--hover:hover {
+    background-color: #16151c;
+  }
+  
+  .background-white--hover:hover {
+    background-color: #fff;
+  }
+  
+  .background-gray--hover:hover {
+    background-color: #5f5e61;
+  }
+  
+  .background-gray-light--hover:hover {
+    background-color: #848487;
+  }
+  
+  .background-gray-dark--hover:hover {
+    background-color: #39383e;
+  }
+  
+  .background-success--hover:hover {
+    background-color: #89dd13;
+  }
+  
+  .background-danger--hover:hover {
+    background-color: #ff413a;
+  }
+  
+  .background-warning--hover:hover {
+    background-color: #ffcd25;
+}
+
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+}
+.card {
+    background: #15141B;
+    color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    flex: 1 200px;
+    margin: 10px;
+}
+
+.card .icon {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 1200px) {
+.card {
+    width: 25%;
+}
+}

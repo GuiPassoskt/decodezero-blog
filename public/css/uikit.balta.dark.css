@@ -1,0 +1,89 @@
+/*! UIkit 3.5.5 | https://www.getuikit.com | (c) 2014 - 2020 YOOtheme | MIT License */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD7g4.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC7g4.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG7g4.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Nunito Light'), local('Nunito-Light'), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAnsSkZg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAjsOkZg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Black'), local('Nunito-Black'), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAtsGkZg.ttf) format('truetype');
+}
+
+/* ========================================================================
+     Component: Base
+   ========================================================================== */
+/*
+   * 1. Set `font-size` to support `rem` units
+   *    Not using `font` property because a leading hyphen (e.g. -apple-system) causes the font to break in IE11 and Edge
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   * 3. Style
+   */
+html {
+  /* 1 */
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+  background: #131219;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
