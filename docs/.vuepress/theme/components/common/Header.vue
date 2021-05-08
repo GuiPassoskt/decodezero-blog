@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="header" :style="isHome">
+    <div id="header">
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle" />
       <nav class="container">
@@ -53,15 +53,15 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: "Header",
   data() {
     return {
       pages: {
-        categories: []
-      }
-    }
-  }
-}
+        categories: [],
+      },
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -88,7 +88,7 @@ export default {
         a {
           display: block;
           color: #fff;
-          font-family: 'IBM Italic', monospace;
+          font-family: "IBM Italic", monospace;
           text-transform: uppercase;
           letter-spacing: 2px;
           word-spacing: -5px;

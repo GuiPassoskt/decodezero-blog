@@ -1,39 +1,20 @@
 {
-  "name": "guipassoskt.github.io",
-  "version": "0.1.0",
-  "private": true,
+  "name": "decodezero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GuiPassoskt/decodezero.git",
+  "author": "Guilherme Moreira <guilherme.moreira@consultegeo.com.br>",
+  "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "prod": "npm run serve --prod",
     "posts:dev": "vuepress dev docs",
     "posts:build": "vuepress build docs"
   },
-  "dependencies": {
-    "core-js": "^3.6.4",
-    "register-service-worker": "^1.7.1",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.6",
-    "vuepress-theme-yuu": "^2.3.0",
-    "vuex": "^3.1.3"
-  },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-plugin-pwa": "~4.3.0",
-    "@vue/cli-plugin-router": "~4.3.0",
-    "@vue/cli-plugin-vuex": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.12.0",
-    "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11",
-    "vuepress": "^1.5.2"
+    "sass-loader": "^10.1.1",
+    "node-sass": "^5.0.0",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^3.0.1"
   }
 }

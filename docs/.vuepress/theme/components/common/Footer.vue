@@ -32,8 +32,8 @@
             <h5 class="title is-6">
               <strong>Faça o seu site ou aplicativo com a gente!</strong>
             </h5>
-            <a href="https://worktab.com.br?origem">
-              <img src="/assets/img/worktab.png" alt="Worktab" title="Worktab" width="200" />
+            <a href="https://decodezero.surge.sh">
+              <img src="https://raw.githubusercontent.com/GuiPassoskt/guipassoskt.github.io/master/img/42.png" alt="DecodeZero" title="WorDecodeZeroktab" width="200" />
             </a>
           </div>
         </div>

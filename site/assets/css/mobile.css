@@ -1,0 +1,91 @@
+@media (min-width: 360px) and (max-width: 480px) {
+    #header label {
+      cursor: pointer;
+      color: #fff;
+      display: block;
+      font-size: 32px;
+      position: absolute;
+  
+      right: -15px;
+      transform: translate(-20%, 25%);
+    }
+  
+    #header input {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    #header nav {
+      justify-content: center;
+      padding: 0;
+    }
+
+    #header nav  a {
+        padding: 10px;
+    }
+
+    #header nav a img {
+        margin-left: -25px;
+    }
+
+    #header nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      display: none;
+    }
+
+    #header nav ul li {
+        flex: 1 200px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #toggle:checked + .container .navbar {
+      display: block;
+      top: 99%;
+      border-top: 1px solid #0e1013 !important;
+      position: absolute;
+      background: #0e1013;
+      width: 100%;
+      margin: 0;
+      transform: translateY(0%);
+      transition: all 500ms ease;
+    }
+
+    #home .card {
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .service h3 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .semi-footer .container {
+        flex-wrap: wrap;
+    }
+
+    .semi-footer .container h3 {
+        text-align: center;
+    }
+
+    .semi-footer .container .box {
+        margin: 10px;
+    }
+
+    .semi-footer .container .box .site-map {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .semi-footer .container .box  .social,
+      .contact {
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    #footer .container .row .col p {
+        text-align: center;
+    }
+}

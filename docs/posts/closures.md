@@ -19,13 +19,13 @@ Fazendo o paralelo com React: se você tem um formulário, por exemplo, onde voc
 
 ```javascript
 function sayHello(name) {
-  const message = `Hello ${name}!`
+  const message = `Hello ${name}!`;
   function say() {
-    alert(message)
+    alert(message);
   }
 
-  say()
+  say();
 }
 
-sayHello('Guilherme') // Hello Guilherme!
+sayHello("Guilherme"); // Hello Guilherme!
 ```
